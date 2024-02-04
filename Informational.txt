@@ -1,0 +1,14 @@
+https://cheatography.com/explore/popular/
+
+----------------------------------< Apache POI Architecture >----------------------------------
+Apache POI have different classes and method to work upon different MS Office Document.
+
+POIFS It’s Stand for “Poor Obfuscation Implementation File System”.This component is the basic factor of all other POI elements. It is used to read different files explicitly.
+HSSF It’s Stand for “Horrible Spreadsheet Format”. It is used to read and write xls format of MS-Excel files.
+XSSF It’s Stand for “XML Spreadsheet Format”. It is used for xlsx file format of MS-Excel.
+HPSF It’s Stand for “Horrible Property Set Format”.It is used to extract property sets of the MS-Office files.
+HWPF It’s Stand for “Horrible Word Processor Format”.It is used to read and write doc extension files of MS-Word.
+XWPF It’s Stand for “XML Word Processor Format”.It is used to read and write docx extension files of MS-Word.
+HSLF It’s Stand for “Horrible Slide Layout Format”.It is used for read, create, and edit PowerPoint presentations.
+HDGF It’s Stand for “Horrible Diagram Format”.It contains classes and methods for MS-Visio binary files.
+HPBF It’s Stand for “Horrible Publisher Format”. use for read and write MS-Publisher files.
