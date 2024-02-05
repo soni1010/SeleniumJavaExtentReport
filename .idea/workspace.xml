@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85bd3342-fb38-4997-9b15-5495c16e5b65" name="Changes" comment="Folder Structure">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/harender/tests/TestNGSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testData.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/tests/TestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/utils/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/utils/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/harender/utils/WebDriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/harender/tests/TestNGSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/harender/tests/TestNGSuite.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,6 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/User/IdeaProjects/SeleniumJavaExtentReport/src/test/java/org/harender/tests/TestNGSuite.xml.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -55,7 +68,7 @@
       <recent name="C:\Users\User\IdeaProjects\SeleniumJavaExtentReport\src\test\java\org\harender\tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.C:/Users/User/IdeaProjects/SeleniumJavaExtentReport/src/test/java/org/harender/tests/TestNGSuite.xml">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SeleniumJavaExtentReport" />
       <extension name="coverage">
@@ -71,8 +84,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/User/IdeaProjects/SeleniumJavaExtentReport/src/test/java/org/harender/tests/TestNGSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumJavaExtentReport" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/org/harender/tests/TestNGSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/User/IdeaProjects/SeleniumJavaExtentReport/src/test/java/org/harender/tests/TestNGSuite.xml" />
         <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
@@ -109,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707055131870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Folder Structure">
+      <option name="closed" value="true" />
+      <created>1707114704650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707114704650</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
