@@ -1,0 +1,10 @@
+<!-- TestNGSuite.xml -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <test name="Test">
+        <classes>
+            <class name="org.harender.base/>
+            <!-- Add more test classes as needed -->
+        </classes>
+    </test>
+</suite>
